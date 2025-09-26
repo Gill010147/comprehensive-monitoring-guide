@@ -1,5 +1,31 @@
 # 완전 통합 모니터링 시스템 구축: 베어메탈과 쿠버네티스 환경
 
+<!-- Hybrid monitoring badges -->
+<p align="left">
+  <img src="https://img.shields.io/badge/Environment-Bare--metal%20%2B%20Kubernetes-4F46E5.svg" />
+  <a href="https://prometheus-operator.dev/">
+    <img src="https://img.shields.io/badge/Prometheus%20Operator-kube--prometheus--stack-FF4C29.svg?logo=prometheus&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/CRD-ServiceMonitor-0EA5E9.svg" />
+  <a href="https://prometheus.io/alerting/alertmanager/">
+    <img src="https://img.shields.io/badge/Alerting-Alertmanager-FF6B6B.svg" />
+  </a>
+  <a href="https://prometheus.io/">
+    <img src="https://img.shields.io/badge/Prometheus-TSDB%20%26%20Scrape-E6522C.svg?logo=prometheus&logoColor=white" />
+  </a>
+  <a href="https://grafana.com/">
+    <img src="https://img.shields.io/badge/Grafana-Dashboards-F46800.svg?logo=grafana&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Exporter-node_exporter-00C853.svg" />
+  <img src="https://img.shields.io/badge/Exporter-mysqld_exporter-4479A1.svg?logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Security-TLS%20%26%20RBAC-0F766E.svg" />
+  <a href="https://helm.sh/">
+    <img src="https://img.shields.io/badge/Helm-Chart%20Deployment-277A9F.svg?logo=helm&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Backup-Snapshot%20%26%20Dashboard%20Export-8B5CF6.svg" />
+</p>
+
+
 본 가이드는 기존의 Kubernetes 클러스터 애플리케이션 배포를 확장하여, 베어메탈 서버에 Prometheus/Grafana 모니터링 스택을 구축하고 이를 쿠버네티스 환경과 통합하는 종합적인 DevOps 파이프라인을 구현합니다. 실무에서 활용 가능한 하이브리드 모니터링 환경을 통해 멀티 플랫폼 인프라 관리 역량을 제시합니다.
 
 ## 📋 목차
